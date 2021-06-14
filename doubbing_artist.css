@@ -1,0 +1,49 @@
+h1{
+    padding-top:50px;
+    text-align:center;
+    font-family: Lucida Calligraphy;
+    font-size :40px;
+    color:red;
+}
+ p{
+    font-size : 20px;
+    font-family: Comic Sans MS;
+    color:black;
+    padding-top:120px;
+    padding-right: 120px;
+    padding-left:500px;
+    text-align:center;   
+  }
+  picture{
+  float: left;
+  padding-top: 45px;
+  border-left: 20px;
+} 
+button{
+    float: right;
+    margin-left: 10px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    color: rgb(15, 11, 11);
+    border:2px solid rgb(2, 2, 2);
+    border-radius: 8px;
+    width: 70px; 
+    margin:20px;
+    cursor: pointer;
+    position: relative;
+}
+span {
+    background: rgb(11, 199, 74);
+    height: 100%;
+    width: 0;
+    position: absolute;
+    border-radius: 8px;
+    left:0;
+    bottom:0;
+    z-index: -1;
+    transition: width 0.5s;
+}
+button:hover span {
+    width: 100%;
+}

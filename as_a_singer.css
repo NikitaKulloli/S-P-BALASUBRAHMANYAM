@@ -1,0 +1,49 @@
+body{
+    background-color:black;
+    }
+h1{
+    padding-top:20px;
+    text-align:center;
+    font-family: Lucida Calligraphy;
+    font-size :40px;
+    color:red;}
+p{
+    font-size : 20px;
+    font-family: Comic Sans MS;
+    color:grey;
+    padding-top:45px;
+}
+picture{
+  float: right;
+  padding-top: 45px;      
+}
+button{
+  float: right; 
+  margin-left: 10px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    color: whitesmoke;
+    border:2px solid white;
+    border-radius: 8px;
+    width: 70px; 
+    margin:20px;
+    cursor: pointer;
+    position: relative;
+}
+span {
+    background: rgb(11, 199, 74);
+    height: 100%;
+    width: 0;
+    position: absolute;
+    border-radius: 8px;
+    left:0;
+    bottom:0;
+    z-index: -1;
+    transition: width 0.5s;
+}
+button:hover span {
+    width: 100%;
+}
+
+

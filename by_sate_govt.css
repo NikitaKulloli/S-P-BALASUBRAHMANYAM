@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   overflow: hidden;
+}
+img{
+ position: fixed;
+z-index: -1;
+height: auto;
+width: 100%;
+ filter: brightness(85%);
+}
+h2{
+    padding-top:10px;
+    font-family: Lucida Calligraphy;
+    text-align:center;
+    font-size :40px;
+    color:rgb(163, 39, 163);
+}
+.content{
+    height:99%;
+}
+.abc{
+    height: 200px;
+    width:230px;
+    padding-left: 20px;
+    padding-top: 5px;
+    position: absolute;
+    bottom: 300px;
+    left: 120px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #888888;
+    transition: transform 0.5s;
+    font-family:Comic Sans MS;
+    background-color: rgb(223, 223, 223);
+}
+.bcd{ 
+    height: 200px;
+    width:230px;
+    padding-left: 20px;
+    padding-top: 5px;
+    position: absolute;
+    bottom: 300px;
+    left: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #888888;
+    transition: transform 0.5s;
+    font-family:Comic Sans MS;
+    background-color: rgb(223, 223, 223);
+}
+.cde{
+    height: 200px;
+    width:230px;
+    padding-left: 20px;
+    padding-top: 5px;
+    position: absolute;
+    bottom: 300px;
+    right: 220px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #888888;
+    transition: transform 0.5s;
+    font-family:Comic Sans MS;
+    background-color: rgb(223, 223, 223);
+}
+.def{
+    height: 200px;
+    width:230px;
+    padding-left: 20px;
+    padding-top: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 120px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #888888;
+    transition: transform 0.5s;
+    font-family:Comic Sans MS;
+    background-color: rgb(223, 223, 223);
+}
+.efg{
+    height: 200px;
+    width:230px;
+    padding-left: 20px;
+    padding-top: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #888888;
+    transition: transform 0.5s;
+    font-family:Comic Sans MS;
+    background-color: rgb(223, 223, 223);
+}
+.fgh{
+    height: 200px;
+    width:230px;
+    padding-left: 20px;
+    padding-top: 5px;
+    position: absolute;
+    bottom: 20px;
+    right: 220px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #888888;
+    transition: transform 0.5s;
+    font-family:Comic Sans MS;
+    background-color: rgb(223, 223, 223);
+}
+hr{
+    margin-right: 15px;
+}
+button{
+  float: right;
+  
+  margin-left: 10px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    color: whitesmoke;
+    border:2px solid white;
+    border-radius: 8px;
+    width: 70px; 
+    margin:20px;
+    cursor: pointer;
+    position: relative;
+}
+.bspan {
+    background: rgb(11, 199, 74);
+    height: 100%;
+    width: 0;
+    position: absolute;
+    border-radius: 8px;
+    left:0;
+    bottom:0;
+    z-index: -1;
+    transition: width 0.5s;
+}
+button:hover .bspan {
+    width: 100%;
+}
+

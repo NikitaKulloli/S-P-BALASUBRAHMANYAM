@@ -1,0 +1,95 @@
+body{
+
+    background-color:black;
+}
+h2{
+    padding-top:5px;
+    font-family: Lucida Calligraphy;
+    text-align:center;
+    font-size :30px;
+    color:whitesmoke;
+}
+.row1 {
+     height: 175px;
+     width:200px;
+     padding-left: 20px;
+     padding-top: 10px;
+     color:rgb(112, 15, 112);
+
+     margin-left: 30px;
+     border-radius: 10px;
+     box-shadow: 5px 10px 18px #888888;
+     transition: transform 0.5s;
+     font-family:Comic Sans MS;
+     background-color: rgb(223, 223, 223);
+}  
+.row1:hover, .row2:hover, .row3:hover, .row4:hover, .row5:hover {
+    transform: scale(1.1);
+}
+   .container {
+    width: 100%;
+    margin-left: 100px;
+    
+}
+.content {
+     height: 200px;
+     width: 100%;
+     display: flex;
+     margin-left: 20px;
+    
+}
+.row2, .row3, .row4, .row5{
+     height: 175px;
+     width:200px;
+     padding-left: 20px;
+     padding-top: 10px;
+     margin-left: 30px;
+    color:rgb(112, 15, 112);
+     margin-top: 20px;
+     border-radius: 10px;
+     box-shadow: 5px 10px 18px #888888;
+     transition: transform 0.5s;
+     font-family:Comic Sans MS;
+     background-color: rgb(223, 223, 223);
+  
+}
+.row3 {
+     margin-top: 40px;
+
+}
+.row4 {
+    margin-top: 60px;
+}
+.row5 {
+    margin-top: 80px;
+}
+
+button{
+  float: right;
+  
+  margin-left: 10px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    color: whitesmoke;
+    border:2px solid white;
+    border-radius: 8px;
+    width: 70px; 
+    margin:20px;
+    cursor: pointer;
+    position: relative;
+}
+.bspan {
+    background: rgb(11, 199, 74);
+    height: 100%;
+    width: 0;
+    position: absolute;
+    border-radius: 8px;
+    left:0;
+    bottom:0;
+    z-index: -1;
+    transition: width 0.5s;
+}
+button:hover .bspan {
+    width: 100%;
+}
